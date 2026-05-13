@@ -15,7 +15,7 @@ Registro de prompts utilizados durante el proceso de diseño del sistema LTI ATS
 Se generaron dos artefactos:
 
 - **Canvas interactivo** (`lti-user-stories.canvas.tsx`): filtra por módulo (6 módulos) y persona (5 tipos de usuario), muestra estadísticas generales (24 historias, 6 módulos, 72 criterios de aceptación, 100% INVEST) y cada historia como tarjeta colapsable con los 3 escenarios expandibles.
-- **Documento** (`LTI_UserStories_v1.0.md`): 24 historias completas con tabla de resumen.
+- **Documento** (`UserStories-DMAJ.md`): 24 historias completas con tabla de resumen.
 
 | Módulo | HUs | INVEST | Observación clave |
 |---|---|---|---|
@@ -117,7 +117,7 @@ Actúa como un Product Owner senior con experiencia en metodologías ágiles (Sc
 @LTI_ATS_PRD_v1.0.md
 
 # HISTORIAS DE USUARIO
-Las historias de usuario se encuentran en el documento @LTI_UserStories_v1.0.md
+Las historias de usuario se encuentran en el documento @UserStories-DMAJ.md
 
 # INSTRUCCIONES DE ANÁLISIS
 Con base en las historias de usuario anteriores, ejecuta los siguientes pasos en orden:
@@ -276,7 +276,7 @@ Un ticket de trabajo (también llamado *work ticket* o *issue*) es una unidad de
 
 **Prompt:**
 
-> Genera los tickets de trabajo para las primeras 5 historias priorizadas en el backlog que se encuentra en `LTI_UserStories_v1.0.md`. Además de los componentes típicos de un ticket adiciona los siguientes:
+> Genera los tickets de trabajo para las primeras 5 historias priorizadas en el backlog que se encuentra en `UserStories-DMAJ.md`. Además de los componentes típicos de un ticket adiciona los siguientes:
 >
 > **7. Etiquetas o Tags** — Categorización por tipo, característica del producto o sprint/versión.
 >
